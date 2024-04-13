@@ -42,3 +42,5 @@ def send_mail():
 
 check_price()
 
+return 0
+
