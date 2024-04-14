@@ -24,7 +24,7 @@ def check_price():
     converted_price = price_str[0:6] 
     print(converted_price)
     print(title)
-    if price > 100000:
+    if price < 100000: #Set the condition for sending mail
         send_mail()
 
 def send_mail():
